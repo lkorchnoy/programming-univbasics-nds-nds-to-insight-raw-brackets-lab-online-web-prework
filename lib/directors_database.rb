@@ -14,7 +14,7 @@ def directors_database
       inner_index = 0
       while inner_index < inner_len do
         total_gross += directors_database[row_index]
-        [column_index][inner_index][]
+        [column_index][inner_index][:gross]
         inner_index += 1
       end
       column_index += 1
