@@ -12,4 +12,12 @@ def directors_database
       [column_index].length
       inner_index = 0
       while inner_index < inner_len do
+        total_gross += directors_database[row_index]
+        [column_index][inner_index][]
+        inner_index += 1
+      end
+      column_index += 1
+    end
+    row_index += 1
 end
+total_gross
